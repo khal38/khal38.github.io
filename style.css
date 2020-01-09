@@ -1,0 +1,112 @@
+html {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 3em;
+}
+
+h2 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 3vh;
+    font-size: 3em;
+}
+
+body {
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16vh;
+    background-image: linear-gradient(to right, #5f3591, #00d4ff);
+    width: 100%;
+    margin-bottom: 6vh;
+    position: fixed;
+}
+
+.mainContainer {
+    padding-top: 8vh;
+}
+
+.instructions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6vh;
+}
+
+.instruction {
+    font-size: 21px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.inputAdd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 6vh;
+}
+
+input {
+    display: grid;
+    text-align: center;
+    padding-top: 30px;
+    width: 15em;
+    height: 40px;
+    font-size: 2em;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#add {
+    background-color:#25BDF4;
+    color: white;
+    padding: 15px 32px;
+    font-size: 25px;
+    margin-left: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    height: 100%;
+}
+
+.del {
+    background-color: Tomato;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin: 4px 2px;
+    margin-left: 10px;
+    border-radius: 4px;
+    width: 80px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 40px;
+    list-style: none;
+}
+
+li:hover {
+    text-decoration: line-through;
+}
+
+.del:hover {
+    -webkit-transform: rotate(-7deg);
+}
+
+.add:hover {
+    transform: scale(3)
+}
